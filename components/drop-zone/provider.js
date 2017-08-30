@@ -68,7 +68,7 @@ class DropZoneProvider extends Component {
 		} );
 
 		this.dropzones.forEach( ( { updateState } ) => {
-			updateState( { isDraggingOverDocument, isDraggingOverElement: false, position: null } );
+			updateState( { isDraggingOverDocument: false, isDraggingOverElement: false, position: null } );
 		} );
 	}
 
